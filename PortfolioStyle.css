@@ -18,6 +18,9 @@
 .projectlinks{
       padding-left: 500px;
       padding-top: 100px;
+    font-family: Arial, sans-serif;
+     text-align: left;
+    background-color: white;
 }
 .contact-section {
   max-width: 400px;
