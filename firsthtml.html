@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My first html page</title>
+        <style>
+            *{
+                box-sizing:border-box;
+            }
+            body{
+                background-color: #f1f1f1;
+               
+                font-family: Arial, Helvetica, sans-serif;
+                padding: 20px;
+                              
+            }
+            .main{
+                max-width: 800px;
+                margin: auto;
+
+            }
+            h1{
+                font-size: 50px;
+            }
+            .row{
+                margin: 8px -25px;
+            }
+            .column{
+                width: 25%;
+                float: left;
+                padding: 2px ;
+            }
+            .content{
+                background-color: #fff;
+                padding: 15px;
+                border: 1px solid grey;
+
+            }
+            .row:after{
+                content: "";
+                background-color: white;
+                padding: 10px;
+                clear: both;
+                display: table;
+            }
+        </style>
+    </head>
+    <body>
+    <!--Main content starts here--> 
+    <div class="main">
+        
+        <nav class="navbar navbar-expand-lg fixed-top navbarScroll">
+            <div class="container">
+                <a class="navbar-brand" href="#">Brad</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#services">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#portfolio">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                    
+                </div>
+            </div>
+        </nav>
+        <h1>MyLogo.com</h1>
+        <hr>
+        <h2>Portfolio</h2>
+        <div class="menu">
+            <a href="#">Home</a>
+            <a href="#project">Project</a>
+            <a href="">About Us</a>
+            <a href="">Contact Us</a>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="column">
+                <div class="content">
+                    <img src="https://www.w3schools.com/w3images/mountains.jpg" alt="mountain Image" style="width:100%">
+                    <h2>mountain</h2>
+                    <p>This is our first column</p>
+                    <p>This is the very first ndcjknvjkefhv iefjvijtoijtobjtoibjtbj ytknjyltkjmnlyknltyknlyknl yknlry6klnjryuljyu lknjlyujmlyuktyulk jyukjyu</p>
+                </div>
+            </div>
+            <div class="column">
+                <div class="content">
+                    <img src="https://www.w3schools.com/w3images/mountains.jpg" alt="mountain Image" style="width:100%">
+                    <h2>mountain</h2>
+                    <p>This is our second column</p>
+                    <p>This is the very first ndcjknvjkefhvi efjvijtoijtobjtoibjt bjytknjyltkjmnlykn ltyknlyknly knlry6klnjryuljyulk njlyujmlyuk tyulkjyukjyu</p>
+                </div>
+            </div>
+            <div class="column">
+                <div class="content">
+                    <img src="https://www.w3schools.com/w3images/mountains.jpg" alt="mountain Image" style="width:100%">
+                    <h2>mountain</h2>
+                    <p>This is our third column</p>
+                    <p>This is the very first ndcjknvjkefhviefjvijto ijtobjto ibjtbjytknj yltkjmnlyknlty knlyknlyknlry6klnjr yuljyulknjlyujmlyuk </p>
+                </div>
+            </div>
+            <div class="column">
+                <div class="content">
+                    <img src="https://www.w3schools.com/w3images/mountains.jpg" alt="mountain Image" style="width:100%">
+                    <h2>mountain</h2>
+                    <p>This is our forth column</p>
+                    <p>This is the very first ndcjknvjkefhviefjvijtoijt objtoibjtbjytknjyltk jmnlyknltyknlyknlyknlry6kl njryuljyulknjlyujmlyuktyu </p>
+                </div>
+            </div>
+        </div>
+    </div>  
+    <!--main content ends here-->
+    <div class="content">
+        <h2>Some othe work</h2>
+        <img src="https://www.w3schools.com/w3images/p3.jpg" alt="p3" style="width: 100%;">
+        <p>bcdkjckduhveruirie. kjqwdniuhiruiro. qwejkdbc    quwefyejhgvjkajcoijvhuejbvjenv</p>
+    </div> 
+    <div class="project" id="project">
+        <h1>Project tab</h1>
+        <h2>some other work</h2>
+        <p>bcdkjckduhveruirie. kjqwdniuhiruiro. qwejkdbc    quwefyejhgvjkajcoijvhuejbvjenv</p>
+    </div>
+    </body>
+</html>
